@@ -33,8 +33,8 @@ There's multiple variables that you can use for this project. Here's the list:
 * cmute_walk: % commuting by walking, ACS 2012-2016
 * cmute_home: % working at home, ACS 2012-2016
 * medinc: Tract median household income
-* povpop_50pct: % of population with hh income <50% poverty, ACS 2012-2016
-* popop_99pct: % of population with hh income >50% but less than 99% poverty, ACS 2012-2016
+* povpop_50pct: % of population with hh income <50% poverty line, ACS 2012-2016
+* povpop_99pct: % of population with hh income >50% but less than 99% poverty line, ACS 2012-2016
 * inc_10K: % hh with incomes <$10,000/year
 * inc_150K: % hh with incomes between $150,000-$199,999/year
 * inc_200K: % hh with incomes >$200,000/year
