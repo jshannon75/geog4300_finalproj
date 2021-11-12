@@ -1,28 +1,32 @@
 ---
 title: 'Geog6300: Final Project'
-author: "Jerry Shannon"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-library(sf)
+
+#Calling libraries/loading data can go here.
+#Full assignment available at https://docs.google.com/document/d/1-e6G9iR-WLWqQQpj3vls4-BNGaeSFPv4OalxWQoX52M/edit?usp=sharing
 ```
 
-Use this template for your responses for the final project.
+Your name:
 
-## Variables and research question (5 points)
-_In the space below, list the four variables you are using for this analysis. The dependent variable should be one of the measures of dollar store proximity. Explain why you're choosing each variable--what association do you think they might have with dollar store proximity? Finally, write a research question that will be answered through your analysis._
+## Research question: 
+*A brief explanation of the question you’re trying to answer.*
 
-## Descriptive analysis (7 points) ***Could break into statistical and spatial for Fall 21. Focus on questions to answer rather than broad tasks--spread of data and skewness as well as spatial distribution***
-_Analyze these data using appropriate measures of central tendency (e.g., mean, median), statistical distribution (e.g., standard deviation and/or IQR), normality, and spatial distribution of each variable using the techniques we have covered in class. Describe any notable patterns you see in these variables based on this analysis._
 
-## Inferential statistics (3 points)
-_Create a multivariate regression model that assesses the relationship between your independent and dependent variables._
+## Data
+*The data you’re using for this assignment, including the source of the data (if known) and the main variables of interest*
 
-## Model diagnostics (5 points) 
-_Check for multicollinearity, the potential effect of outliers, and check whether the residuals have a random distribution both statistically and spatially. Discuss what model diagnostics tell you about the validity of the model._ 
+## Methods
+*A description of the methods you’re using to answer your research question, with an explanation of why these particular techniques are most appropriate*
 
-## Discussion (10 points) ***Fall 21--Move model interpretation to it's own section and make sure it's developed.***
-_Based on your results, interpret the results of your model, focusing on the direction, magnitude, and significance of each variable and the overall power of the model. Based on this analysis, what answer can you give to your research question? What limitations or problems does your analysis have that should be addressed in the future?_
+## Analysis
+*The actual tests/graphs described in the methods section. Be sure that the output of your test is visible on the knitted document, and explain what the results of each test or the patterns visible on each graphic mean.*
+
+## Discussion
+*How you would answer your research question based on your results.*
+
+## Self-reflection
+*Your own evaluation of this final assignment and how it demonstrates what you’ve learned this semester.*
