@@ -8,44 +8,20 @@ library(tidyverse)
 library(sf)
 ```
 
-## Introduction
+Here’s what each project will need to include:
+A clearly-framed, precise research question that requires techniques discussed in class
+An element of descriptive/exploratory analysis: graphing central tendency/distribution or mapping out data to identify potential spatial patterns
+At least one inferential test (t-test, ANOVA, chi-square, correlation, regression)
 
-For this final project, you will analyze data on dollar stores in Chicago to analyze the relationship between demographic variables and proximity to a dollar store location. This project is fairly similar to your final lab, and it asks you to make use of the skills you've developed in this course.
+The final project should be an R Markdown document that is in the following format:
 
-## The dataset
+Research question: A brief explanation of the question you’re trying to answer.
+*Data: The data you’re using for this assignment, including the source of the data (if known) and the main variables of interest
+*Methods: A description of the methods you’re using to answer your research question, with an explanation of why these particular techniques are most appropriate
+*Analysis: The actual tests/graphs described in the methods section. Be sure that the output of your test is visible on the knitted document, and explain what the results of each test or the patterns visible on each graphic mean.
+*Discussion: How you would answer your research question based on your results.
+*Self-reflection: Your own evaluation of this final assignment and how it demonstrates what you’ve learned this semester.
 
-The dataset for your final provides multiple variables for tracts in the Chicago metropolitan area. These include the following:
+Your proposal (due by class on 11/30) should include the research question, data, and methods sections. Tag me in an issue on Github when you’re done. This is a chance to get my input before you get into the actual analysis.
 
-* totpop: Total population
-* areakm: Area in square kilometers
-* popdens: People per 100 sq. km.
-* white_pct: % of people classified White, non-Hispanic
-* afam_pct: % of people classified African-American, non-Hispanic
-* asian_pct: % of people classified Asian-American, non-Hispanic
-* hisp_pct: % of people classified Hispanic/Latino
-* pov_pct: % of people with household incomes below poverty level
-* medinc: Median household income
-* spmkt_dist: Distance to the nearest SNAP-authorized supermarket
-* allstore_dist: Distance to the closest dollar store (any chain) in km
-* dg_dist: Distance to the closest Dollar General in meters
-* dt_dist: Distance to the closest Dollar Tree in meters
-* fd_dist: Distance to the closest Family Dollar in meters
-
-You can load the data from your repo using the following command:
-
-```{r message=FALSE}
-chi_data<-st_read("data/geog4300_dollarstoredata.gpkg", quiet=TRUE) %>%
-  rename(geometry=geom)
-```
-
-## Your assignment
-For this assignment, you will need to select four variables: *one* measure of proximity to dollar stores (allstore_dist through fd_dist) and *three* additional variables you believe might be associated with that dependent variable (population density, for example). Just as in your last lab, you should use descriptive statistics to understand the characteristics of each variable and then use regression to assess their association. You'll need to explain your decisions throughout this process. Specific questions can be found on the assignment response template, which is what you'll use to complete the assignment.
-
-## Grading
-
-* Variables and research question (5 points):
-* Descriptive statistics (10 points):
-* Inferential statistics (10 points):
-* Discussion (5 points):
-
-Total (out of 30 points):
+I'll leave feedback in the "Issues" tab and tag you for both the proposal and final project.
