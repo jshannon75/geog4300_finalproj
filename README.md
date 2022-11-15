@@ -3,11 +3,6 @@ title: "Geog4/6300: Final project"
 output: github_document
 ---
 
-```{r message=FALSE, warning=FALSE}
-library(tidyverse)
-library(sf)
-```
-
 Here’s what each project will need to include:
 A clearly-framed, precise research question that requires techniques discussed in class
 An element of descriptive/exploratory analysis: graphing central tendency/distribution or mapping out data to identify potential spatial patterns
