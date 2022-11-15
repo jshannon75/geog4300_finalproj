@@ -1,7 +1,4 @@
----
-title: "Geog4/6300: Final project"
-output: github_document
----
+**Geog4/6300: Final project**
 
 Here’s what each project will need to include:
 A clearly-framed, precise research question that requires techniques discussed in class
