@@ -1,5 +1,5 @@
 ---
-title: 'Geog6300: Final Project'
+title: 'Geog4/6300: Final Project'
 output: github_document
 ---
 
